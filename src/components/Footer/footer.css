@@ -1,0 +1,9 @@
+.main-footer{
+  text-align: center;
+  background-color: #222025;
+  color: rgb(216, 211, 211);
+  padding:1em;
+  bottom:0;
+  position: relative;
+  width: 100%;
+}

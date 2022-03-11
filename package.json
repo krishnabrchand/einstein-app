@@ -1,0 +1,68 @@
+{
+  "homepage": "http://codemaverick80.github.io/einstein-app",
+  "name": "sif-react-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@date-io/date-fns": "1.x",
+    "@material-ui/core": "^4.12.2",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.60",
+    "@material-ui/pickers": "^3.3.10",
+    "@sendgrid/mail": "^7.4.7",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.4",
+    "classnames": "^2.3.1",
+    "clsx": "^1.1.1",
+    "date-fns": "^2.23.0",
+    "faker": "^5.5.3",
+    "file-saver": "^2.0.5",
+    "formik": "^2.2.9",
+    "react": "^17.0.2",
+    "react-base-table": "^1.12.0",
+    "react-dom": "^17.0.2",
+    "react-google-recaptcha": "^2.1.0",
+    "react-number-format": "^4.6.4",
+    "react-player": "^2.9.0",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "^5.0.0",
+    "react-slick": "^0.28.1",
+    "react-virtualized": "^9.22.3",
+    "rimraf": "^2.6.2",
+    "sass": "^1.36.0",
+    "web-vitals": "^1.0.1",
+    "xlsx": "^0.17.3",
+    "yup": "^0.32.9"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "rimraf ./build && react-scripts start",
+    "build": "react-scripts build",
+    "compile-sass": "sass src/assets/scss/material-kit-pro-react.scss:src/assets/css/material-kit-pro-react.css",
+    "minify-sass": "sass src/assets/scss/material-kit-pro-react.scss:src/assets/css/material-kit-pro-react.min.css --style compressed"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}

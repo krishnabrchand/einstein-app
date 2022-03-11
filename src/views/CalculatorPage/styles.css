@@ -1,0 +1,65 @@
+.BaseTable__header-row,
+.BaseTable__row {
+  border-bottom: 0;
+}
+
+.BaseTable__header-row {
+  color: #fff;
+  border-bottom: 1px solid #9e9e9e;
+}
+.BaseTable__row-cell {
+  border-right: 1px solid #9e9e9e;
+  border-bottom: 1px solid #9e9e9e;
+}
+
+/* .BaseTable__header-row {
+  border-bottom: 1px solid #9e9e9e;
+} */
+
+/* .BaseTable__table-main .BaseTable__header-cell:first-child,
+.BaseTable__table-main .BaseTable__row-cell:first-child {
+  border-right: 1px solid #000;
+  border-top: 1px solid #000;
+}*/
+
+/* 6a1b9a , 616161*/
+/* #4527a0 */
+.BaseTable__header-cell {
+  background-color: #3e2723;
+  border-right: 1px solid #9e9e9e;
+  border-top: 1px solid #9e9e9e;
+}
+
+.BaseTable__row-cell-text {
+  font-weight: 700;
+}
+.BaseTable__header-cell-text {
+  font-size: 16px;
+}
+.BaseTable__row:hover {
+  color: #000;
+  background-color: #e8eaf6;
+}
+
+.badge {
+  background-color: #4527a0;
+  color: #eaeceb;
+  margin-right: 4px;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.cellText {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.rebuyText {
+  /* color: #311b92; */
+  color: #1b5e20;
+  font-size: 14px;
+  font-weight: 700;
+}

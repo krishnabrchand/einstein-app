@@ -1,0 +1,16 @@
+version: "3"
+services:
+  einstein-app:
+    image: einstein-app
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+      args:
+        - REACT_APP_NAME=Einstein's 8th Wonder of the world
+    ports:
+      - "8080:80"
+    # environment:
+    #   - REACT_APP_NAME=einstein
+    #   - CHOKIDAR_USEPOOLING=true
+    # env_file:
+    #   - ./.env

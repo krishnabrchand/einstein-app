@@ -1,0 +1,15 @@
+version: "3"
+services:
+  einstein-app:
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    ports:
+      - "8080:80"    
+    # environment:
+    #   - REACT_APP_NAME=einstein
+    #   - CHOKIDAR_USEPOOLING=true
+    # # env_file:
+    # #   - ./.env
+
+    
